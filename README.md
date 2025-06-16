@@ -48,7 +48,7 @@ This interactive Power BI dashboard provides the following insights:
 
 ### 💼 Dashboard Overview
 
-![Dashboard Full View](Images/Spotify%20page%202.png)
+![Dashboard Full View](Images/spotify%20page%202.png)
 
 
 **Visuals Included:**
