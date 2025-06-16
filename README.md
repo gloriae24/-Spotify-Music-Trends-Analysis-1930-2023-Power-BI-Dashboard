@@ -175,7 +175,7 @@ Spotify-Music-Analysis/
 
 ### 🔝 Top Streamed Tracks
 
-![Top Tracks](images/top_streamed_tracks.png)
+![Top Tracks](Images/Toptracks.png)
 
 ---
 
