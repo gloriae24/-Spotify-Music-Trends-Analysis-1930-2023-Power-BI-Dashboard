@@ -44,8 +44,6 @@ This interactive Power BI dashboard provides the following insights:
 ### ✅ Page 2: Track Performance Overview
 **Purpose**: Identify high-performing tracks using playlist and stream metrics across all platforms.
 
-## 📷 Sample Visuals
-
 ### 💼 Dashboard Overview
 
 ![Dashboard Full View](Images/spotify%20page%202.png)
@@ -68,8 +66,9 @@ This interactive Power BI dashboard provides the following insights:
 ## 📷 Sample Visuals
 
 ### 💼 Dashboard Overview
+![Dashboard Full View](Images/Spotify%20page%203.png)
 
-![Dashboard Full View](images/dashboard_full_view.png)
+
 
 
 **Visuals Included:**
@@ -88,8 +87,7 @@ This interactive Power BI dashboard provides the following insights:
 
 ### 💼 Dashboard Overview
 
-![Dashboard Full View](images/dashboard_full_view.png)
-
+![Dashboard Full View](Images/Spotify%20tooltipage.png)
 
 **Visuals:**
 - Track Title  
@@ -222,8 +220,8 @@ Spotify-Music-Analysis/
 
 **Gloria Obianuju Egesi**
 🎓 Data Analyst & Visualization Enthusiast
-📧 \[Your Email Address]
-🔗 \[Your LinkedIn / Portfolio / Medium Profile]
+📧 \[egesi.gloria1@gmail.com]
+
 
 ---
 
