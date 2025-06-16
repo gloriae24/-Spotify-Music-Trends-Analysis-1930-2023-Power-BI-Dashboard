@@ -12,7 +12,7 @@ The Power BI report is organized into **three key pages** and a **dedicated tool
 
 ### 💼 Dashboard Overview
 
-![Dashboard Full View](Images/Spotify Dashboard.png)
+![Dashboard Full View](Images/Spotify_Dashboard.png)
 
 
 ## 📊 Dashboard Highlights
