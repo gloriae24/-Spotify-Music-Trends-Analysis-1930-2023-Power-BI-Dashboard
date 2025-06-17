@@ -183,7 +183,9 @@ Spotify-Music-Analysis/
 ## Key Statistics
 
 *Total Streams: 489 Billion
+
 *Total Tracks Analyzed: 952
+
 *Average Streams per Track: 514 Million
 
 ---
@@ -191,10 +193,15 @@ Spotify-Music-Analysis/
 ## 💡 Insights Discovered
 
 * The most streamed track between 1930–2023 exceeded 2 billion streams, underscoring its massive reach and popularity.
+  
 *Average streams tend to peak in January and September, suggesting seasonal listener behavior.
+
 *Over the years, track release patterns have evolved: earlier peaks were in January and November, but in recent years, January and May have emerged as the most active months for releases.
+
 *High-performing tracks often share common audio traits such as high danceability and energy, although listener preferences also play a role in driving stream counts.
+
 *Spotify consistently featured the majority of playlisted and charted tracks, reinforcing its leadership in streaming-based music discovery.
+
 *Collaborative tracks have grown significantly in popularity, with over 150 tracks featuring at least two artists in 2022 alone, reflecting a clear trend toward multi-artist projects in modern music.
 
 ---
