@@ -48,28 +48,22 @@ This interactive Power BI dashboard provides the following insights:
 
 ![Dashboard Full View](Images/spotify%20page%202.png)
 
-
 **Visuals Included:**
 1. **Matrix Table** – Track name (rows) vs. Platform (columns) with playlist counts  
 2. **Scatter Plot** – Playlist Count (X) vs. Streams (Y)  
    - Legend: Track Name  
    - Size: Total Playlist Appearance  
-3. **Line & Clustered Column Chart** – Playlist Count (columns) and Streams (line) per track  
-4. **Stacked Column Chart** – Streams per track  
-5. **Card Visual** – Year-filtered Total Playlist Count  
-6. **Top 20 Playlist Tracks** – Stacked column chart by platform  
-7. **Top 5 Streamed Tracks** – Stacked column chart by streams
+3. **Line & Clustered Column Chart** – Axis: Track Name | Playlist Count (columns) and | Line Y: Streams per track  
+4. **Card Visual** – Total Playlist Count filtered by Year  
+5. **Top 20 Playlist Tracks** – Stacked column chart by platform ( Axis: Track Name | Value: Playlist Count | Legend: Platform)
+6. **Top 5 Streamed Tracks** – Stacked Column Chart (Streams per track )
+
 
   ### ✅ Page 3: Platform & Time-Based Trends
 **Purpose**: Analyze playlist activity over time and across platforms.
 
-## 📷 Sample Visuals
-
 ### 💼 Dashboard Overview
 ![Dashboard Full View](Images/Spotify%20page%203.png)
-
-
-
 
 **Visuals Included:**
 1. **Clustered Column Chart** – Playlist Count per Track split by Platform  
@@ -93,9 +87,9 @@ This interactive Power BI dashboard provides the following insights:
 - Track Title  
 - **Card**: Total Playlist Count  
 - **Card**: Total Streams  
-- **Card**: Number of Platforms  
+- **Card**: Number of Platforms appeared on  
   - `Platforms_Count = DISTINCTCOUNT('Unpivoted_Dataset'[Platform])`
-- **Donut/Bar Chart**: Playlist Count by Platform for the hovered track
+- **Donut Chart**: Playlist Count by Platform for the hovered track
  
 ---
 
@@ -186,15 +180,22 @@ Spotify-Music-Analysis/
 * 🖊 **DAX** – Calculated columns and measures
 * 🧹 **Power Query** – Data cleaning and transformation
 
+## Key Statistics
+
+*Total Streams: 489 Billion
+*Total Tracks Analyzed: 952
+*Average Streams per Track: 514 Million
+
 ---
 
 ## 💡 Insights Discovered
 
-* The **most streamed track** from 1930–2023 had over **X million streams**
-* **June and November** saw higher track release activity on average
-* Songs with high **danceability** and **energy** values tend to have more streams
-* Majority of charting tracks appeared more on **Spotify** than other platforms
-* Rise in multi-artist collaborations in recent years (using `artist_count`)
+* The most streamed track between 1930–2023 exceeded 2 billion streams, underscoring its massive reach and popularity.
+*Average streams tend to peak in January and September, suggesting seasonal listener behavior.
+*Over the years, track release patterns have evolved: earlier peaks were in January and November, but in recent years, January and May have emerged as the most active months for releases.
+*High-performing tracks often share common audio traits such as high danceability and energy, although listener preferences also play a role in driving stream counts.
+*Spotify consistently featured the majority of playlisted and charted tracks, reinforcing its leadership in streaming-based music discovery.
+*Collaborative tracks have grown significantly in popularity, with over 150 tracks featuring at least two artists in 2022 alone, reflecting a clear trend toward multi-artist projects in modern music.
 
 ---
 
@@ -211,7 +212,7 @@ Spotify-Music-Analysis/
 
 1. Download or clone this repository
 2. Open the `.pbix` file with **Power BI Desktop**
-3. Explore the visuals, filter insights, or add your own analysis
+3. Explore the visuals, filter insights, or add your analysis
 4. Use the dataset to build additional charts or reports
 
 ---
